@@ -8,7 +8,6 @@ export function Sidebar() {
 
     const menuItems = [
         { path: '/', label: 'Refund Orders', icon: '📦' },
-        // Add more menu items as needed
     ];
 
     return (

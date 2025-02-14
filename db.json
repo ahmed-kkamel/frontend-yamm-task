@@ -7,7 +7,7 @@
       "store_logo": "https://logo.clearbit.com/ebay.com",
       "store_url": "https://ebay.com",
       "amount": 2495,
-      "active": false,
+      "active": true,
       "decision": "reject",
       "items": [
         {
@@ -122,7 +122,7 @@
       "store_url": "https://target.com",
       "amount": 598,
       "active": true,
-      "decision": "reject",
+      "decision": "accept",
       "items": [
         {
           "id": "item-1",
