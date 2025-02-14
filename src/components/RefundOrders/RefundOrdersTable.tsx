@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { Table } from '../Table/Table';
 import { RefundOrder, DecisionType } from '../../types/refund';
 import { Select } from '../ui/Select';
@@ -21,8 +20,6 @@ interface RefundOrdersTableProps {
 
 
 export function RefundOrdersTable({ orders, totalOrders, onUpdateOrder, isLoading }: RefundOrdersTableProps) {
-    const [page, setPage] = useState(0);
-    const PER_PAGE = 15;
 
     const { toast, showToast, clearToast } = useToast();
 
@@ -101,9 +98,6 @@ export function RefundOrdersTable({ orders, totalOrders, onUpdateOrder, isLoadin
                 data={orders}
                 columns={columns}
                 totalItems={totalOrders}
-                page={page}
-                perPage={PER_PAGE}
-                onPageChange={setPage}
             />
             {toast && (
                 <Toast

@@ -7,8 +7,8 @@
       "store_logo": "https://logo.clearbit.com/ebay.com",
       "store_url": "https://ebay.com",
       "amount": 2495,
-      "active": true,
-      "decision": "escalate",
+      "active": false,
+      "decision": "reject",
       "items": [
         {
           "id": "item-1",
@@ -37,7 +37,7 @@
       "store_logo": "https://logo.clearbit.com/amazon.com",
       "store_url": "https://amazon.com",
       "amount": 1796,
-      "active": true,
+      "active": false,
       "decision": "escalate",
       "items": [
         {
@@ -67,7 +67,7 @@
       "store_logo": "https://logo.clearbit.com/target.com",
       "store_url": "https://target.com",
       "amount": 3195,
-      "active": false,
+      "active": true,
       "decision": null,
       "items": [
         {
@@ -121,7 +121,7 @@
       "store_logo": "https://logo.clearbit.com/target.com",
       "store_url": "https://target.com",
       "amount": 598,
-      "active": false,
+      "active": true,
       "decision": "reject",
       "items": [
         {
