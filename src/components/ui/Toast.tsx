@@ -12,11 +12,19 @@ export function Toast({ message, type, onClose }: ToastProps) {
         return () => clearTimeout(timer);
     }, [onClose]);
 
-    const bgColor = type === 'success' ? 'bg-green-500' : 'bg-red-500';
+    const gradientBg = type === 'success' ? 'bg-gradient-to-r from-green-400 to-green-600' : 'bg-gradient-to-r from-red-400 to-red-600';
 
     return (
-        <div className={`fixed top-4 right-4 ${bgColor} text-white px-6 py-3 rounded-lg shadow-lg`}>
-            {message}
+        <div className={`fixed top-4 right-4 ${gradientBg} text-white px-6 py-4 rounded-lg shadow-lg transition-transform transform hover:scale-105 animate-fadeIn`}>
+            <div className="flex items-center">
+                <div className="mr-2 text-2xl">
+                    {type === 'success' ? '✅' : '❌'}
+                </div>
+                <span className="font-semibold text-lg">{message}</span>
+            </div>
+            <button onClick={onClose} className="absolute top-2 right-2 text-white hover:text-gray-200 transition-colors duration-200">
+                &times;
+            </button>
         </div>
     );
 } 

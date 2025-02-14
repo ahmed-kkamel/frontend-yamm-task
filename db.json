@@ -7,7 +7,7 @@
       "store_logo": "https://logo.clearbit.com/ebay.com",
       "store_url": "https://ebay.com",
       "amount": 2495,
-      "active": false,
+      "active": true,
       "decision": "escalate",
       "items": [
         {
@@ -38,7 +38,7 @@
       "store_url": "https://amazon.com",
       "amount": 1796,
       "active": true,
-      "decision": "accept",
+      "decision": "escalate",
       "items": [
         {
           "id": "item-1",
@@ -98,7 +98,7 @@
       "store_url": "https://bestbuy.com",
       "amount": 2196,
       "active": true,
-      "decision": null,
+      "decision": "reject",
       "items": [
         {
           "id": "item-1",
@@ -145,7 +145,7 @@
       "store_logo": "https://logo.clearbit.com/ebay.com",
       "store_url": "https://ebay.com",
       "amount": 996,
-      "active": false,
+      "active": true,
       "decision": null,
       "items": [
         {
@@ -283,7 +283,7 @@
       "store_logo": "https://logo.clearbit.com/bestbuy.com",
       "store_url": "https://bestbuy.com",
       "amount": 2494,
-      "active": false,
+      "active": true,
       "decision": null,
       "items": [
         {
@@ -313,7 +313,7 @@
       "store_logo": "https://logo.clearbit.com/amazon.com",
       "store_url": "https://amazon.com",
       "amount": 2994,
-      "active": false,
+      "active": true,
       "decision": null,
       "items": [
         {
