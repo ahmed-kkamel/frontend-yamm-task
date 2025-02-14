@@ -1,0 +1,958 @@
+{
+  "refund-orders": [
+    {
+      "id": "1",
+      "reason": "Product not as expected",
+      "store_name": "eBay Store",
+      "store_logo": "https://logo.clearbit.com/ebay.com",
+      "store_url": "https://ebay.com",
+      "amount": 2495,
+      "active": false,
+      "decision": "escalate",
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Smartphone",
+          "price": 699,
+          "quantity": 3
+        },
+        {
+          "id": "item-2",
+          "name": "Monitor",
+          "price": 299,
+          "quantity": 1
+        },
+        {
+          "id": "item-3",
+          "name": "Keyboard",
+          "price": 99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "reason": "Defective product",
+      "store_name": "Amazon Store",
+      "store_logo": "https://logo.clearbit.com/amazon.com",
+      "store_url": "https://amazon.com",
+      "amount": 1796,
+      "active": true,
+      "decision": "accept",
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Tablet",
+          "price": 499,
+          "quantity": 2
+        },
+        {
+          "id": "item-2",
+          "name": "Monitor",
+          "price": 299,
+          "quantity": 1
+        },
+        {
+          "id": "item-3",
+          "name": "Tablet",
+          "price": 499,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "reason": "Changed mind",
+      "store_name": "Target Store",
+      "store_logo": "https://logo.clearbit.com/target.com",
+      "store_url": "https://target.com",
+      "amount": 3195,
+      "active": false,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Keyboard",
+          "price": 99,
+          "quantity": 1
+        },
+        {
+          "id": "item-2",
+          "name": "Smartphone",
+          "price": 699,
+          "quantity": 3
+        },
+        {
+          "id": "item-3",
+          "name": "Laptop",
+          "price": 999,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "reason": "Wrong item received",
+      "store_name": "Best Buy Store",
+      "store_logo": "https://logo.clearbit.com/bestbuy.com",
+      "store_url": "https://bestbuy.com",
+      "amount": 2196,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Laptop",
+          "price": 999,
+          "quantity": 2
+        },
+        {
+          "id": "item-2",
+          "name": "Keyboard",
+          "price": 99,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "reason": "Not as described",
+      "store_name": "Target Store",
+      "store_logo": "https://logo.clearbit.com/target.com",
+      "store_url": "https://target.com",
+      "amount": 598,
+      "active": false,
+      "decision": "reject",
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Monitor",
+          "price": 299,
+          "quantity": 1
+        },
+        {
+          "id": "item-2",
+          "name": "Monitor",
+          "price": 299,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "reason": "Wrong item received",
+      "store_name": "eBay Store",
+      "store_logo": "https://logo.clearbit.com/ebay.com",
+      "store_url": "https://ebay.com",
+      "amount": 996,
+      "active": false,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Keyboard",
+          "price": 99,
+          "quantity": 1
+        },
+        {
+          "id": "item-2",
+          "name": "Monitor",
+          "price": 299,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "reason": "Size doesn't match",
+      "store_name": "Best Buy Store",
+      "store_logo": "https://logo.clearbit.com/bestbuy.com",
+      "store_url": "https://bestbuy.com",
+      "amount": 1497,
+      "active": false,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Tablet",
+          "price": 499,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "reason": "Late delivery",
+      "store_name": "Target Store",
+      "store_logo": "https://logo.clearbit.com/target.com",
+      "store_url": "https://target.com",
+      "amount": 1596,
+      "active": false,
+      "decision": "reject",
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Monitor",
+          "price": 299,
+          "quantity": 2
+        },
+        {
+          "id": "item-2",
+          "name": "Tablet",
+          "price": 499,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "reason": "Size doesn't match",
+      "store_name": "Amazon Store",
+      "store_logo": "https://logo.clearbit.com/amazon.com",
+      "store_url": "https://amazon.com",
+      "amount": 3096,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Keyboard",
+          "price": 99,
+          "quantity": 1
+        },
+        {
+          "id": "item-2",
+          "name": "Laptop",
+          "price": 999,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "reason": "Product not as expected",
+      "store_name": "Best Buy Store",
+      "store_logo": "https://logo.clearbit.com/bestbuy.com",
+      "store_url": "https://bestbuy.com",
+      "amount": 2247,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Smartwatch",
+          "price": 249,
+          "quantity": 1
+        },
+        {
+          "id": "item-2",
+          "name": "Laptop",
+          "price": 999,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "reason": "Size doesn't match",
+      "store_name": "Best Buy Store",
+      "store_logo": "https://logo.clearbit.com/bestbuy.com",
+      "store_url": "https://bestbuy.com",
+      "amount": 4395,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Smartphone",
+          "price": 699,
+          "quantity": 2
+        },
+        {
+          "id": "item-2",
+          "name": "Laptop",
+          "price": 999,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "reason": "Not as described",
+      "store_name": "Best Buy Store",
+      "store_logo": "https://logo.clearbit.com/bestbuy.com",
+      "store_url": "https://bestbuy.com",
+      "amount": 2494,
+      "active": false,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Headphones",
+          "price": 199,
+          "quantity": 1
+        },
+        {
+          "id": "item-2",
+          "name": "Smartphone",
+          "price": 699,
+          "quantity": 3
+        },
+        {
+          "id": "item-3",
+          "name": "Keyboard",
+          "price": 99,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "reason": "Wrong item received",
+      "store_name": "Amazon Store",
+      "store_logo": "https://logo.clearbit.com/amazon.com",
+      "store_url": "https://amazon.com",
+      "amount": 2994,
+      "active": false,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Tablet",
+          "price": 499,
+          "quantity": 3
+        },
+        {
+          "id": "item-2",
+          "name": "Tablet",
+          "price": 499,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "reason": "Wrong item received",
+      "store_name": "Best Buy Store",
+      "store_logo": "https://logo.clearbit.com/bestbuy.com",
+      "store_url": "https://bestbuy.com",
+      "amount": 3843,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Smartphone",
+          "price": 699,
+          "quantity": 3
+        },
+        {
+          "id": "item-2",
+          "name": "Smartwatch",
+          "price": 249,
+          "quantity": 1
+        },
+        {
+          "id": "item-3",
+          "name": "Tablet",
+          "price": 499,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "reason": "Not as described",
+      "store_name": "Target Store",
+      "store_logo": "https://logo.clearbit.com/target.com",
+      "store_url": "https://target.com",
+      "amount": 2394,
+      "active": false,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Keyboard",
+          "price": 99,
+          "quantity": 3
+        },
+        {
+          "id": "item-2",
+          "name": "Smartphone",
+          "price": 699,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "reason": "Defective product",
+      "store_name": "Amazon Store",
+      "store_logo": "https://logo.clearbit.com/amazon.com",
+      "store_url": "https://amazon.com",
+      "amount": 398,
+      "active": false,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Headphones",
+          "price": 199,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "reason": "Size doesn't match",
+      "store_name": "Walmart Store",
+      "store_logo": "https://logo.clearbit.com/walmart.com",
+      "store_url": "https://walmart.com",
+      "amount": 747,
+      "active": false,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Smartwatch",
+          "price": 249,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "reason": "Not as described",
+      "store_name": "Walmart Store",
+      "store_logo": "https://logo.clearbit.com/walmart.com",
+      "store_url": "https://walmart.com",
+      "amount": 999,
+      "active": false,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Laptop",
+          "price": 999,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "reason": "Product not as expected",
+      "store_name": "Best Buy Store",
+      "store_logo": "https://logo.clearbit.com/bestbuy.com",
+      "store_url": "https://bestbuy.com",
+      "amount": 1398,
+      "active": false,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Smartphone",
+          "price": 699,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "reason": "Wrong item received",
+      "store_name": "Amazon Store",
+      "store_logo": "https://logo.clearbit.com/amazon.com",
+      "store_url": "https://amazon.com",
+      "amount": 946,
+      "active": false,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Headphones",
+          "price": 199,
+          "quantity": 1
+        },
+        {
+          "id": "item-2",
+          "name": "Smartwatch",
+          "price": 249,
+          "quantity": 2
+        },
+        {
+          "id": "item-3",
+          "name": "Smartwatch",
+          "price": 249,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "reason": "Wrong item received",
+      "store_name": "Walmart Store",
+      "store_logo": "https://logo.clearbit.com/walmart.com",
+      "store_url": "https://walmart.com",
+      "amount": 1897,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Smartphone",
+          "price": 699,
+          "quantity": 2
+        },
+        {
+          "id": "item-2",
+          "name": "Tablet",
+          "price": 499,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "reason": "Size doesn't match",
+      "store_name": "Target Store",
+      "store_logo": "https://logo.clearbit.com/target.com",
+      "store_url": "https://target.com",
+      "amount": 2997,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Laptop",
+          "price": 999,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "reason": "Wrong item received",
+      "store_name": "Walmart Store",
+      "store_logo": "https://logo.clearbit.com/walmart.com",
+      "store_url": "https://walmart.com",
+      "amount": 598,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Monitor",
+          "price": 299,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "reason": "Size doesn't match",
+      "store_name": "Amazon Store",
+      "store_logo": "https://logo.clearbit.com/amazon.com",
+      "store_url": "https://amazon.com",
+      "amount": 2995,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Smartphone",
+          "price": 699,
+          "quantity": 2
+        },
+        {
+          "id": "item-2",
+          "name": "Headphones",
+          "price": 199,
+          "quantity": 1
+        },
+        {
+          "id": "item-3",
+          "name": "Smartphone",
+          "price": 699,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "reason": "Defective product",
+      "store_name": "Best Buy Store",
+      "store_logo": "https://logo.clearbit.com/bestbuy.com",
+      "store_url": "https://bestbuy.com",
+      "amount": 2094,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Smartwatch",
+          "price": 249,
+          "quantity": 2
+        },
+        {
+          "id": "item-2",
+          "name": "Tablet",
+          "price": 499,
+          "quantity": 3
+        },
+        {
+          "id": "item-3",
+          "name": "Keyboard",
+          "price": 99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "reason": "Wrong item received",
+      "store_name": "Walmart Store",
+      "store_logo": "https://logo.clearbit.com/walmart.com",
+      "store_url": "https://walmart.com",
+      "amount": 1997,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Tablet",
+          "price": 499,
+          "quantity": 2
+        },
+        {
+          "id": "item-2",
+          "name": "Laptop",
+          "price": 999,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "reason": "Product not as expected",
+      "store_name": "Target Store",
+      "store_logo": "https://logo.clearbit.com/target.com",
+      "store_url": "https://target.com",
+      "amount": 4892,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Tablet",
+          "price": 499,
+          "quantity": 3
+        },
+        {
+          "id": "item-2",
+          "name": "Headphones",
+          "price": 199,
+          "quantity": 2
+        },
+        {
+          "id": "item-3",
+          "name": "Laptop",
+          "price": 999,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "reason": "Late delivery",
+      "store_name": "Amazon Store",
+      "store_logo": "https://logo.clearbit.com/amazon.com",
+      "store_url": "https://amazon.com",
+      "amount": 249,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Smartwatch",
+          "price": 249,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "reason": "Defective product",
+      "store_name": "Walmart Store",
+      "store_logo": "https://logo.clearbit.com/walmart.com",
+      "store_url": "https://walmart.com",
+      "amount": 1643,
+      "active": false,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Smartwatch",
+          "price": 249,
+          "quantity": 3
+        },
+        {
+          "id": "item-2",
+          "name": "Smartwatch",
+          "price": 249,
+          "quantity": 2
+        },
+        {
+          "id": "item-3",
+          "name": "Headphones",
+          "price": 199,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "reason": "Late delivery",
+      "store_name": "Best Buy Store",
+      "store_logo": "https://logo.clearbit.com/bestbuy.com",
+      "store_url": "https://bestbuy.com",
+      "amount": 1998,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Laptop",
+          "price": 999,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "reason": "Defective product",
+      "store_name": "Best Buy Store",
+      "store_logo": "https://logo.clearbit.com/bestbuy.com",
+      "store_url": "https://bestbuy.com",
+      "amount": 99,
+      "active": false,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Keyboard",
+          "price": 99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "reason": "Product not as expected",
+      "store_name": "eBay Store",
+      "store_logo": "https://logo.clearbit.com/ebay.com",
+      "store_url": "https://ebay.com",
+      "amount": 299,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Monitor",
+          "price": 299,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "reason": "Size doesn't match",
+      "store_name": "eBay Store",
+      "store_logo": "https://logo.clearbit.com/ebay.com",
+      "store_url": "https://ebay.com",
+      "amount": 998,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Tablet",
+          "price": 499,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "reason": "Not as described",
+      "store_name": "Amazon Store",
+      "store_logo": "https://logo.clearbit.com/amazon.com",
+      "store_url": "https://amazon.com",
+      "amount": 496,
+      "active": false,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Headphones",
+          "price": 199,
+          "quantity": 1
+        },
+        {
+          "id": "item-2",
+          "name": "Keyboard",
+          "price": 99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "reason": "Product not as expected",
+      "store_name": "Walmart Store",
+      "store_logo": "https://logo.clearbit.com/walmart.com",
+      "store_url": "https://walmart.com",
+      "amount": 3396,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Smartphone",
+          "price": 699,
+          "quantity": 2
+        },
+        {
+          "id": "item-2",
+          "name": "Laptop",
+          "price": 999,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "reason": "Defective product",
+      "store_name": "Walmart Store",
+      "store_logo": "https://logo.clearbit.com/walmart.com",
+      "store_url": "https://walmart.com",
+      "amount": 1145,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Smartwatch",
+          "price": 249,
+          "quantity": 3
+        },
+        {
+          "id": "item-2",
+          "name": "Headphones",
+          "price": 199,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "reason": "Late delivery",
+      "store_name": "eBay Store",
+      "store_logo": "https://logo.clearbit.com/ebay.com",
+      "store_url": "https://ebay.com",
+      "amount": 995,
+      "active": false,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Headphones",
+          "price": 199,
+          "quantity": 3
+        },
+        {
+          "id": "item-2",
+          "name": "Headphones",
+          "price": 199,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "reason": "Size doesn't match",
+      "store_name": "Best Buy Store",
+      "store_logo": "https://logo.clearbit.com/bestbuy.com",
+      "store_url": "https://bestbuy.com",
+      "amount": 998,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Tablet",
+          "price": 499,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "reason": "Size doesn't match",
+      "store_name": "Target Store",
+      "store_logo": "https://logo.clearbit.com/target.com",
+      "store_url": "https://target.com",
+      "amount": 1844,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Monitor",
+          "price": 299,
+          "quantity": 2
+        },
+        {
+          "id": "item-2",
+          "name": "Tablet",
+          "price": 499,
+          "quantity": 1
+        },
+        {
+          "id": "item-3",
+          "name": "Smartwatch",
+          "price": 249,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "reason": "Product not as expected",
+      "store_name": "Target Store",
+      "store_logo": "https://logo.clearbit.com/target.com",
+      "store_url": "https://target.com",
+      "amount": 2445,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "id": "item-1",
+          "name": "Keyboard",
+          "price": 99,
+          "quantity": 2
+        },
+        {
+          "id": "item-2",
+          "name": "Laptop",
+          "price": 999,
+          "quantity": 2
+        },
+        {
+          "id": "item-3",
+          "name": "Smartwatch",
+          "price": 249,
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}
