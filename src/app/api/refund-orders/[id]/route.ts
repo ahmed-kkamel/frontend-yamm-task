@@ -47,7 +47,7 @@ export async function GET(
 
     // Find the specific order
     const order = data["refund-orders"].find(
-      (order: any) => order.id === params?.id
+      (order: any) => order.id === (params ? params.id : undefined)
     );
 
     if (!order) {

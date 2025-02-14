@@ -7,8 +7,8 @@
       "store_logo": "https://logo.clearbit.com/ebay.com",
       "store_url": "https://ebay.com",
       "amount": 2495,
-      "active": true,
-      "decision": "reject",
+      "active": false,
+      "decision": "escalate",
       "items": [
         {
           "id": "item-1",
@@ -68,7 +68,7 @@
       "store_url": "https://target.com",
       "amount": 3195,
       "active": true,
-      "decision": null,
+      "decision": "reject",
       "items": [
         {
           "id": "item-1",
@@ -751,7 +751,7 @@
       "store_logo": "https://logo.clearbit.com/ebay.com",
       "store_url": "https://ebay.com",
       "amount": 299,
-      "active": true,
+      "active": false,
       "decision": null,
       "items": [
         {

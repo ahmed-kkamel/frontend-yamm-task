@@ -10,7 +10,7 @@ export function Dashboard() {
     return (
         <div className="min-h-screen bg-gray-100">
             <Sidebar />
-            <main className="ml-64 p-8">
+            <main className="ml-0 md:ml-64 p-4 md:p-8">
                 <div className="max-w-7xl mx-auto">
                     <h1 className="text-2xl font-bold mb-6">Refund Orders</h1>
                     {error && (

@@ -44,7 +44,7 @@ export function RefundOrdersTable({ orders, totalOrders, onUpdateOrder, isLoadin
         {
             header: 'Store',
             key: 'store',
-            render: (row: RefundOrder) => <RefundOrderRow order={row} onUpdateOrder={onUpdateOrder} showToast={showToast} />
+            render: (row: RefundOrder) => <RefundOrderRow order={row} />
         },
         { header: 'Reason', key: 'reason' },
         {

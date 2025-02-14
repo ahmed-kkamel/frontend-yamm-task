@@ -1,25 +1,11 @@
-import { ReactNode, useState } from 'react';
+import { useState } from 'react';
 import Pagination from './Pagination';
+import { TableProps } from '@/types/table';
 
-interface TableColumn<T> {
-    header: string;
-    key: keyof T | string;
-    render?: (row: T) => ReactNode;
-}
 
-interface TableProps<T> {
-    readonly data: T[];
-    readonly columns: TableColumn<T>[];
-    readonly totalItems: number;
-    readonly idKey?: keyof T;
-}
+export function Table<T>(props: Readonly<TableProps<T>>) {
+    const { data, columns, totalItems, idKey } = props;
 
-export function Table<T>({
-    data,
-    columns,
-    totalItems,
-    idKey
-}: TableProps<T>) {
     const [page, setPage] = useState(0);
 
     const PER_PAGE = 15;
